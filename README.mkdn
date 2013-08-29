@@ -1,6 +1,14 @@
+vendor/cm/proprietary/Term.apk:
+
+./vendor/cm/get-prebuilts
+
+. build/envsetup.sh
+brunch mione_plus
+
+
+
 CyanogenMod for MiOne
 ===========
-QQ交流群:88107607 (欢迎加入)
 
 
 Submitting Patches
@@ -33,7 +41,7 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the CyanogenMod trees, use a command like this:
 
-    repo init -u git://github.com/mirom/android.git -b cm-10.2
+    repo init -u git://github.com/gamegrd/android.git -b cm-10.2
 
 Then to sync up:
 
